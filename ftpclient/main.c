@@ -21,7 +21,7 @@ int main(int argc,char *argv[]){
     }
     connect_url(argv[1]);//第一次链接服务器
     ftp_help();//输出帮助列表
-    t_login();//登陆
+    t_login();//登陆 
     while(1){
         setbuf(stdin,NULL);//清空输入缓冲区
         printf("ftp>");

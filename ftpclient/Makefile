@@ -4,5 +4,5 @@ t_ftp:$(OBJS)
 %.o:%.c
 	gcc -c $< -o $@
 clean:
-	rm *.o t_ftp
+	rm *.o
 

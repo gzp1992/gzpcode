@@ -1,1 +1,2 @@
-*.o t_ftp
+*.o
+t_ftp
